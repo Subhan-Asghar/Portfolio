@@ -19,7 +19,7 @@ const Footer = () => {
       <div className=' flex flex-wrap justify-center items-center gap-2'>
         <a href="#home"><Button variant={"outline"} size={"icon-sm"}> <Home /></Button></a>
         <a href="https://github.com/Subhan-Asghar" target='_blank'><Button variant={"outline"} size={"icon-sm"}> <GithubIcon /></Button></a>
-       <a href="www.linkedin.com/in/subhan-asghar-87b35631a" target='_blank'> <Button variant={"outline"} size={"icon-sm"}> <LinkedinIcon /></Button></a>
+       <a href="https://www.linkedin.com/in/subhan-asghar-87b35631a" target='_blank'> <Button variant={"outline"} size={"icon-sm"}> <LinkedinIcon /></Button></a>
 
       </div>
 
