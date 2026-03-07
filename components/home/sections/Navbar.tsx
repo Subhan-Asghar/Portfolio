@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='flex'>
                  <a href="#home"> <Button variant={"custom"} >Home </Button></a>
              <a href="#about"><Button variant={"custom"}>About </Button></a>
-             <Button variant={"custom"}>Projects </Button>
+             <a href="#projects"><Button variant={"custom"}>Projects </Button></a>
              <a href="https://github.com/Subhan-Asghar" target='_blank'>
                 <Button variant={"custom"} size={'icon'}><GithubIcon/> </Button>
             </a>
