@@ -1,7 +1,7 @@
 import React from 'react'
-import HorizontalGrid from './grid/HorizontalGrid'
+import HorizontalGrid from '../grid/HorizontalGrid'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Separator } from '../ui/separator'
+import { Separator } from '../../ui/separator'
 import { Code,CodeXml } from 'lucide-react';
 const Profile = () => {
     return (
@@ -9,7 +9,7 @@ const Profile = () => {
             <div className='p-2 flex '>
          <Avatar className='w-30 h-30'>
                 <AvatarImage
-                    src="https://avatars.githubusercontent.com/u/176176346?v=4" 
+                    src={"/profile.png"} 
                     className='object-cover'
                     />
                 <AvatarFallback>SA</AvatarFallback>

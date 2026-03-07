@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from '../ui/button'
+import { Button } from '../../ui/button'
 import {ModeToggle} from "@/components/theme-button"
-import HorizontalGrid from './grid/HorizontalGrid'
-import { Separator } from '../ui/separator'
-import { GithubIcon } from '../icons/GithubIcon'
+import HorizontalGrid from '../grid/HorizontalGrid'
+import { Separator } from '../../ui/separator'
+import { GithubIcon } from '../../icons/GithubIcon'
 import { Badge } from '@/components/ui/badge'
 const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
     </Badge>
             <div className='flex'>
                  <a href="#home"> <Button variant={"custom"} >Home </Button></a>
-             <Button variant={"custom"}>About </Button>
+             <a href="#about"><Button variant={"custom"}>About </Button></a>
              <Button variant={"custom"}>Projects </Button>
              <a href="https://github.com/Subhan-Asghar" target='_blank'>
                 <Button variant={"custom"} size={'icon'}><GithubIcon/> </Button>

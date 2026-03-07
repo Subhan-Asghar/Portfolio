@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import HorizontalGrid from "./grid/HorizontalGrid"
-import { Separator } from '../ui/separator'
+import HorizontalGrid from "../grid/HorizontalGrid"
+import { Separator } from '../../ui/separator'
 import { useTheme } from "next-themes"
 
 
@@ -57,19 +57,12 @@ const Stack = () => {
           <div className='flex flex-wrap gap-4 pt-2'>
           {stack.map((item, index) => (
             <div key={index}>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                
+            
                     <StackIcon name={item}
                     variant={resolvedTheme==="dark"? "dark":"light"}
                     className='size-8'
                     />
-                
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>Hello</p>
-                </TooltipContent>
-              </Tooltip>
+             
             </div>
           ))}
         </div>

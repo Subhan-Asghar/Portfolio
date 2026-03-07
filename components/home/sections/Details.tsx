@@ -1,5 +1,5 @@
 import React from 'react'
-import HorizontalGrid from './grid/HorizontalGrid'
+import HorizontalGrid from '../grid/HorizontalGrid'
 import {  MapPin, CodeXml ,Mail,GithubIcon,Mars,GraduationCap,Linkedin} from 'lucide-react';
 const Details = () => {
     return (
