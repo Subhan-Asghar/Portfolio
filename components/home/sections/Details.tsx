@@ -39,7 +39,7 @@ const Details = () => {
                         <span className='bg-muted h-6 w-6 rounded-sm flex items-center justify-center '>
                             <Linkedin size={16} />
                         </span>
-                        <a href="https://github.com/Subhan-Asghar" target='_blank'>
+                        <a href="https://www.linkedin.com/in/subhan-asghar-87b35631a/" target='_blank'>
                         <h1 className='hover:underline hover:underline-offset-2' >Linkedin</h1>
                         </a>
                     </div>

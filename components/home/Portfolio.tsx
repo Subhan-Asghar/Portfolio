@@ -6,6 +6,7 @@ import Details from './sections/Details'
 import Stack from './sections/Stack'
 import About from './sections/About'
 import Projects from './sections/Projects'
+import Footer from './sections/Footer'
 
 const Portfolio = () => {
   return (
@@ -21,6 +22,7 @@ const Portfolio = () => {
             <Stack/>
             <About/>
             <Projects/>
+            <Footer/>
           </div> 
         <div className="hidden md:grid md:col-span-3 pl-1">
               <GridLines/>

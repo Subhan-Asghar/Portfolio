@@ -3,6 +3,7 @@ import HorizontalGrid from '../grid/HorizontalGrid'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Separator } from '../../ui/separator'
 import { Code,CodeXml } from 'lucide-react';
+import { ShimmeringText } from "@/components/ui/shimmering-text"
 const Profile = () => {
     return (
         <div>
@@ -17,7 +18,10 @@ const Profile = () => {
             <div className='flex flex-col  justify-end w-full p-2'>
                 <Separator/>
                 <h1 className='pt-2 text-3xl  font-semibold tracking-tight'>Subhan Asghar </h1>
-                <p className='text-sm text-muted-foreground flex items-center gap-1 font-light'><CodeXml size={18}/> Software Engineer </p>
+                <p className='text-sm text-muted-foreground flex items-center gap-1 font-light'>
+                     <CodeXml size={18}/>
+                     <ShimmeringText text={"Software Engineer "} />
+                     </p>
             </div>
             
             </div>

@@ -5,6 +5,7 @@ import HorizontalGrid from '../grid/HorizontalGrid'
 import { Separator } from '../../ui/separator'
 import { GithubIcon } from '../../icons/GithubIcon'
 import { Badge } from '@/components/ui/badge'
+
 const Navbar = () => {
   return (
     <div id='home'>
@@ -22,7 +23,7 @@ const Navbar = () => {
             </a>
              <Separator orientation='vertical'/>
         <ModeToggle/>
-            </div>
+                    </div>
            
         </div>
        

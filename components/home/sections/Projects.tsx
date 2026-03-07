@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div id='projects'>
         <div className='p-2'>
- <h1 className='text-2xl font-semibold tracking-tight pb-2'>Projects</h1>
+ <h1 className='text-2xl font-semibold tracking-tight pb-2'>Projects <sup className='text-sm text-muted-foreground'>({projects.length})</sup></h1>
     
             <div className='flex flex-col w-full gap-2 '>
                 {projects.map((item,id)=>(
