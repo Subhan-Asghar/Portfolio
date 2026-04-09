@@ -49,7 +49,8 @@ const Projects = () => {
                              <span className='flex flex-wrap gap-2 items-center'>                                
                                 {item.type.map((type,id)=>(
                                 <Badge
-                                className='font-semibold'
+                                className='text-sm px-1.5 py-px  '
+                                variant={'secondary'}
                                 key={id}>{type}</Badge>
                               ))}</span>
                         </div>
